@@ -1,0 +1,42 @@
+.App {
+    text-align: center;
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background: rgb(73,79,82);
+    color: white;
+  }
+
+  /* Ensure proper sizing */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Main column */
+  .homemain1{
+    position: absolute;
+    right: 0px;
+    width: 48%;
+    border: 6px solid #808080;
+    padding: 10px;
+    margin-right: 1%;
+    margin-top: 1%;
+  }
+  .homemain2{
+    position: absolute;
+    left: 0px;
+    width: 48%;
+    border: 6px solid #808080;
+    padding: 10px;
+    margin-left: 1%;
+    margin-top: 1%;
+
+  }
+  
+
+
+  
